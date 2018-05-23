@@ -1,0 +1,22 @@
+{
+  "name": "blaze-bot",
+  "version": "1.0.0",
+  "description": "My discord bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MHSCodeGithub/blaze-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MHSCodeGithub/blaze-bot/issues"
+  },
+  "homepage": "https://github.com/MHSCodeGithub/blaze-bot#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
