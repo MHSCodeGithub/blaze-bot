@@ -18,7 +18,15 @@ client.on("message", function (message) {
     */
 
     if (command == "help") {
-      channel.send("I cannot help you!");
+      channel.send(
+"```markdown\nList Of Help Commands:\n"+"
+ 1. !help\n"+"
+```");
+    } else if(command == "!BlazeBurnBlade") {
+      channel.send("The best person in this godamn place!")
+
+    } else {
+      channel.send("Not a command!");
     }
   }
 });
